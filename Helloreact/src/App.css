@@ -1,0 +1,81 @@
+.global-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-square {
+  background-color: rgb(28, 31, 50);
+  height: 90vh;
+  width: 90vw;
+  margin: 1.5rem;
+}
+
+.content-dark-square {
+  padding: 1.5rem 4rem;
+}
+
+.menu-nav-bar {
+  height: 1rem;
+  width: 1.5rem;
+}
+
+.nav-bar-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: white;
+}
+
+.title h1 {
+  font-size: 5rem;
+  margin: 6rem 0 0 0;
+  width: 30rem;
+}
+
+.title p {
+  width: 22rem;
+  font-size: larger;
+}
+
+.btn-awesome {
+  height: 4rem;
+  width: 10rem;
+  font-size: large;
+  margin: 3rem 0 0 0 ;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  margin: 4rem 0 10rem 0; 
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.ul-container {
+  width: 13rem;
+}
+
+.li-image {
+  height: 8rem;
+}
+
+.li-image img { 
+  height: 8rem;
+}
+
+.li-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 1rem 0 0.7rem 0;
+}
